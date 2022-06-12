@@ -1,0 +1,159 @@
+.body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #140880;
+}
+.nav-logo li {
+  float: right;
+}
+
+.nav-logo {
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+.imgLogo {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 7%;
+  height: 80%;
+  margin-right: 30px;
+  margin-top: 5px;
+  margin-bottom: -12px;
+}
+header nav a {
+  margin-top: -12vh;
+  text-decoration: none;
+  color: white;
+  font-size: 1.4vw;
+  margin-left: 1vw;
+}
+
+header nav {
+  margin-left: 1vw;
+}
+
+header nav select {
+  border: none;
+  background-color: #140880;
+  color: white;
+  font-size: 1.2vw;
+  margin-left: 1vw;
+}
+
+#line {
+  color: white;
+}
+
+.first-icon,
+.second-icon,
+.third-icon,
+.fourth-icon {
+  padding-left: 10px;
+  color: white;
+}
+
+.fourth-icon {
+  font-size: 20px;
+}
+#logo-line {
+  list-style: none;
+  padding-left: 10px;
+}
+.second-header nav {
+  margin-left: 10%;
+  margin-top: 1%;
+}
+
+.second-header nav li {
+  padding-right: 5px;
+  list-style: none;
+  float: left;
+}
+
+.heading {
+  padding-left: 10%;
+  padding-top: 1%;
+  clear: both;
+  font-size: 30px;
+  font-weight: bold;
+}
+.second-header-line {
+  padding: 2px;
+  background-color: rgb(181, 190, 200);
+}
+
+section {
+  margin-top: -13px;
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
+
+.sidebar {
+  /* background-color: brown; */
+}
+.sidebar-content {
+  padding-left: 10%;
+}
+
+section div ul li:hover {
+  background-color: blueviolet;
+}
+
+.list-style {
+  list-style-type: circle;
+  font-size: 1.4vw;
+}
+
+.list-style {
+  list-style-type: circle;
+  font-size: 1.4vw;
+}
+.section-content {
+  /* background-color: violet; */
+  flex: 1;
+  margin-left: 3%;
+}
+.list-caption {
+  font-weight: bold;
+  font-size: 1.5vw;
+}
+.anchor-tag {
+  float: right;
+}
+
+form div p label span {
+  color: red;
+}
+
+.vl {
+  margin-top: 3px;
+  border-left: 5px solid gray;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.arrowbutton {
+  background-color: rgb(70, 236, 98);
+  display: block;
+  width: 70px;
+  height: 25px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.anchor-tag {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div a {
+  color: #140880;
+}
